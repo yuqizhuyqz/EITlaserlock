@@ -359,7 +359,7 @@ class MainWindow(QMainWindow):
         # re-init arrays every waittime in ms
         self.timer2 = QTimer()
         # waittime = 1000*3
-        waittime = 1000*3600*1
+        waittime = 1000*3600*3 %
         self.timer2.start(waittime)
         self.timer2.timeout.connect(lambda: self.timeout2(wavemeter, daq, save))
 
