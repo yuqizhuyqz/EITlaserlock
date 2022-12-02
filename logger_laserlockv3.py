@@ -33,6 +33,8 @@ filename2 = path_name + '\\' + filename2
 samplingintervalmsec=60 # min=10 ms
 savebool=False
 freqsetpt = 308.32290 # freq setpt in THz
+waittime = 1000*3600*3 # in ms, reinit arrays every waittime 
+# waittime = 1000*3
 
 class WavemeterWS7(QWidget):
 
@@ -358,8 +360,6 @@ class MainWindow(QMainWindow):
 
         # re-init arrays every waittime in ms
         self.timer2 = QTimer()
-        # waittime = 1000*3
-        waittime = 1000*3600*3 %
         self.timer2.start(waittime)
         self.timer2.timeout.connect(lambda: self.timeout2(wavemeter, daq, save))
 
