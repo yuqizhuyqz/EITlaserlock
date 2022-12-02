@@ -3,8 +3,8 @@
 `logger_laserlock`
 - used for characterizing the 405 lock
 - running the code generates a two-panel GUI
-- log wavemeter reading in units of THz, sat ab voltage @ ai1, and digilock out @ port0/line7
-- software timed via Qt.timeout~ 100 ms-1s per loop or data pt. slow, but the lock itself is fast
+- log wavemeter reading in units of THz, sat ab voltage @ ai1, and digilock out @ port0/line7 
+- software timed via `Qttimer.timeout`~ 100 ms-1s per loop or data pt. slow, but the lock itself is fast
 
 `logger_laserlockv3`
 - used for locking the 970 laser to wavemeter via piezo control
