@@ -16,4 +16,4 @@
 - software timed~60 ms/loop
 - (optional) update Scan offset on dlc before closing
 - (optional) data can be saved after daq 
-  - max log time ~ 3 hours to avoid 'time lags' (gaining loop times) at late times
+  - max log time ~ `waittime` [ms] to avoid 'time lags' (gaining loop times) at late times
