@@ -2,7 +2,7 @@
 
 `logger_laserlock`
 - used for characterizing the 405 lock
-- running the code generates a GUI
+- running the code generates a GUI. Unpause to start logging.
 - log wavemeter reading in units of THz, sat ab voltage @ ai1, and digilock out @ port0/line7 
 - software timed via `Qttimer.timeout()`~ 100 ms-1s per loop or data pt. slow, but the lock itself is fast
 
