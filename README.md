@@ -12,5 +12,5 @@
 - control ecdl's piezo via Analog Remote Control (ARC) and Fine1
   - conversion factor =1 V/V. the ARC voltage is added to the scan offset 
   - Vout from dac ao1
-- log error (actual-setpoint) in THz, and servo Vout in volts
+- log error (actual-setpoint) in MHz, and servo Vout in volts
 - software timed~60 ms/loop
