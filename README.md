@@ -17,3 +17,7 @@
 - (optional) update Scan offset on dlc before closing
 - (optional) data can be saved after daq 
   - max log time ~ `waittime` [ms] to avoid 'time lags' (gaining loop times) at late times
+
+`characterizelaserlocks.pdf`
+- presentation based on data taken with these loggers 
+  - last slide explains the functionalities of the pid controller (i.e. `logger_laserlockv3`)
